@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     android:background="#57D12A">
 
-
     <TextView
         android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
@@ -21,7 +20,6 @@
         android:layout_marginTop="32dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"/>
-
 
     <TextView
         android:id="@+id/textViewMoistureLabel"
@@ -71,7 +69,6 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"/>
 
-
     <TextView
         android:id="@+id/textViewSuggestionsTitle"
         android:layout_width="wrap_content"
@@ -83,7 +80,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewHeatIndexLabel"
         android:layout_marginStart="16dp"
         android:layout_marginTop="48dp"/>
-
 
     <TextView
         android:id="@+id/textViewSeedsLabel"
@@ -103,7 +99,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="76dp"
         android:layout_marginTop="32dp"
-        android:text="Rice"
+        android:text="--"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -127,7 +123,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
         android:layout_marginTop="72dp"
-        android:text=" 78%"
+        android:text="--"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -149,11 +145,12 @@
         android:id="@+id/kAns"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
         android:layout_marginTop="112dp"
-        android:text=" 42%"
+        android:text="--"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.381"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSuggestionsTitle" />
 
@@ -161,31 +158,32 @@
         android:id="@+id/textViewPhosphateLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:text="Phosphate:"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewPotassiumLabel" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewPotassiumLabel"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
 
     <TextView
         android:id="@+id/pasAns"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="152dp"
-        android:text="42%"
+        android:text="--"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.356"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewSuggestionsTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewSuggestionsTitle"
+        app:layout_constraintVertical_bias="0.551" />
 
     <TextView
         android:id="@+id/textViewPhLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:text="pH:"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
@@ -200,24 +198,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
         android:layout_marginTop="188dp"
-        android:text="262.7173405"
+        android:text="--"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewSuggestionsTitle" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:text="Test"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewSuggestionsTitle"
+        app:layout_constraintVertical_bias="0.022" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
