@@ -56,11 +56,5 @@ EcoGrow/
 ## Contributing
 We welcome contributions! Feel free to fork the project, make improvements, and submit a pull request.
 
-## License
-This project is licensed under the **MIT License**.
-
-## Contact
-For any queries, reach out at **your-email@example.com** or visit [GitHub](https://github.com/ArulG2005/Ecogrow).
-
 ---
 🚀 *Empowering Farmers with Smart Crop Recommendations!*
